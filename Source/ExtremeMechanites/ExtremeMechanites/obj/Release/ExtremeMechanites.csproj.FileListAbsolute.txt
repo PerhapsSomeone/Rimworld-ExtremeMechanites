@@ -1,0 +1,5 @@
+/home/marc/.local/share/Steam/steamapps/common/RimWorld/Mods/ExtremeMechanites/Source/ExtremeMechanites/ExtremeMechanites/obj/Release/ExtremeMechanites.csproj.CoreCompileInputs.cache
+/home/marc/.local/share/Steam/steamapps/common/RimWorld/Mods/ExtremeMechanites/Assemblies/ExtremeMechanites.dll
+/home/marc/.local/share/Steam/steamapps/common/RimWorld/Mods/ExtremeMechanites/Source/ExtremeMechanites/ExtremeMechanites/obj/Release/ExtremeMechanites.csprojAssemblyReference.cache
+/home/marc/.local/share/Steam/steamapps/common/RimWorld/Mods/ExtremeMechanites/Source/ExtremeMechanites/ExtremeMechanites/obj/Release/ExtremeMechanites.csproj.CopyComplete
+/home/marc/.local/share/Steam/steamapps/common/RimWorld/Mods/ExtremeMechanites/Source/ExtremeMechanites/ExtremeMechanites/obj/Release/ExtremeMechanites.dll

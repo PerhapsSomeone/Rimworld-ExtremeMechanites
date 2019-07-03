@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>ExtremeMechanites</defName>
+    <label>extreme mechanite pill</label>
+    <description>A mix of extreme mechanites, dosed to almost the lethal level.\n\nBeware: This can cause your pawns to literally combust anytime while under their influence. However, if they don't, they will get an extreme boost to everything for 10 days.\n\nHalf of the users will explode.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Penoxycyline</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>18</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ExtremeMechanoidsActive</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>ExtremeMechanoidsActive</defName>
+    <hediffClass>ExtremeMechanites.Hediff_ExtremeMechanites</hediffClass>
+    <label>extreme mechanoids (active)</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+      <stages>
+        <li>
+          <statOffsets>
+            <WorkSpeedGlobal>3.00</WorkSpeedGlobal>
+            <GlobalLearningFactor>3.00</GlobalLearningFactor>
+            <ImmunityGainSpeed>3.00</ImmunityGainSpeed>
+            <MoveSpeed>3.00</MoveSpeed>
+            <ShootingAccuracyPawn>3.00</ShootingAccuracyPawn>
+          </statOffsets>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>Moving</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>Manipulation</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>Talking</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>Eating</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>Sight</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>Hearing</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>Breathing</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>BloodFiltration</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>BloodPumping</capacity>
+              <offset>2</offset>
+            </li>
+            <li>
+              <capacity>Metabolism</capacity>
+              <offset>2</offset>
+            </li>
+          </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+</Defs>

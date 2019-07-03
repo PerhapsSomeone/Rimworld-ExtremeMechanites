@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hediff_ExtremeMechanites.cs">
+    <Files>
+      <File FileName="HugsLibModBase.cs" Line="31" Column="73" />
+      <File FileName="ConfigClass.cs" Line="8" Column="56" />
+      <File FileName="Hediff_ConverterMechanites.cs" Line="10" Column="29" />
+      <File FileName="Hediff_ExtremeMechanites.cs" Line="12" Column="37" />
+      <File FileName="Hediff_WithCompsAndSlightSideEffects.cs" Line="29" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExtremeMechanites" expanded="True">
+            <Node name="ExtremeMechanites" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Hediff_ExtremeMechanites.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
